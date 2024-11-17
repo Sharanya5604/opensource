@@ -1,0 +1,8 @@
+x,n=map(int,input().split())
+capacity=100 * x
+if capacity>=n:
+    print(0)
+else:
+    remaining=n-capacity
+    planes_buy=(remaining+99)//100  
+    print(planes_buy)
